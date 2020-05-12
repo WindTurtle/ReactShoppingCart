@@ -1,0 +1,23 @@
+[
+  {
+    "maSP": 1,
+    "tenSP": "Apple Iphone 11 Pro",
+    "gioiThieu": "iPhone 11 Pro là chiếc iPhone đầu tiên có tới 3 camera, sở hữu tính năng chụp đêm hay chụp ảnh với góc siêu rộng, ...",
+    "hinhAnh": "https://cdn.tgdd.vn/Products/Images/42/188705/iphone-11-pro-black-400x460.png",
+    "gia": 1200
+  },
+  {
+    "maSP": 2,
+    "tenSP": "Samsung Galaxy Fold",
+    "gioiThieu": "Samsung Galaxy Fold không chỉ sở hữu một màn hình có thể uốn dẻo mà còn có một màn hình riêng, để có thể sử dụng độc lập khi gập máy lại.",
+    "hinhAnh": "https://cdn.tgdd.vn/Products/Images/42/198158/samsung-galaxy-fold-black-400x460.png",
+    "gia": 1500
+  },
+  {
+    "maSP": 3,
+    "tenSP": "OPPO Find X2",
+    "gioiThieu": "Find X2 sở hữu màn hình AMOLED Ultra Vision cao cấp với kích thước lên đến 6.7 inch cùng độ phân giải 2K+ cực nét được bảo vệ bằng kính cường lực Corning Gorilla Glass 6 cao cấp.",
+    "hinhAnh": "https://cdn.tgdd.vn/Products/Images/42/198150/oppo-find-x2-xanh-400x460-1-400x460.png",
+    "gia": 1000
+  }
+]
