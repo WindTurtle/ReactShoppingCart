@@ -113,7 +113,7 @@ class ModalGioHang extends Component {
                   Close
                 </button>
                 <button type="button" className="btn btn-primary">
-                  Save
+                  Check out
                 </button>
               </div>
             </div>
