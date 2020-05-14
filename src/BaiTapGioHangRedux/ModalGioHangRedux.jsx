@@ -5,6 +5,9 @@ import { connect } from "react-redux";
 class ModalGioHangRedux extends Component {
   renderGioHang = () => {
     return this.props.gioHang.map((spGioHang, index) => {
+      let tongTien = this.props.gioHang.reduce((tongTien, spGioHang, index) => {
+        return (tongTien += spGioHang.soLuong * spGioHang.gia);
+      }, 0);
       return (
         <tr key={index}>
           <td>{spGioHang.maSP}</td>
@@ -46,6 +49,9 @@ class ModalGioHangRedux extends Component {
     });
   };
   render() {
+    let tongTien = this.props.gioHang.reduce((tongTien, spGioHang, index) => {
+      return (tongTien += spGioHang.soLuong * spGioHang.gia);
+    }, 0);
     return (
       <div className="container">
         <table className="table">
@@ -63,12 +69,8 @@ class ModalGioHangRedux extends Component {
           <tbody>{this.renderGioHang()}</tbody>
           <tfoot>
             <td colSpan="4"></td>
-            <td colSpan="1">Tỏng tiền</td>
-            <td>
-              ${this.props.gioHang.reduce((tongTien, spGioHang, index) => {
-                return (tongTien += spGioHang.soLuong * spGioHang.gia);
-              }, 0)}
-            </td>
+            <td colSpan="1">Tổng tiền</td>
+            <td>${tongTien}</td>
           </tfoot>
         </table>
       </div>
